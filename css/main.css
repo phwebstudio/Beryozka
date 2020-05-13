@@ -1,0 +1,164 @@
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+	font-family: sans-serif;
+}
+
+*::selection {
+	background-color: rgba(255, 143, 0, .25);
+}
+
+h2 {
+	font-size: 2em;
+	line-height: 2em;
+	color: #ff8f00;
+	cursor: default;
+	margin: .25em 0;
+	border-bottom: 1px dotted #ff8f00;
+	border-top: 1px dotted #ff8f00;
+}
+
+p {
+	line-height: 1.5em;
+	font-size: 1em;
+}
+
+span {
+	font-size: 1em;
+	line-height: 1.5em;
+	cursor: default;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+a.btn {
+	color: #ff8f00;
+	border: 3px solid #ff8f00;
+	padding: .75em 0;
+	display: block;
+	width: 25%;
+	margin: 0 auto;
+	text-align: center;
+	transition: .25s;
+	border-radius: .25em;
+	font-weight: bold;
+	line-height: 1.5em;
+}
+
+a.btn:hover {
+	background-color: #ff8f00;
+	border-color: #ff8f00;
+	color: white;
+}
+
+img {
+	width: 100%;
+}
+
+img.icon {
+	width: 2.5em;
+}
+
+img.icon-bg {
+	width: 5em;
+}
+
+main {
+	background-color: #202020;
+}
+
+header {
+	width: 100%;
+	position: fixed;
+	background-color: #202020;
+	padding: .75em;
+	z-index: 999;
+}
+
+header .logo {
+	color: white;
+	font-size: 2em;
+	letter-spacing: .25em;
+}
+
+header .main-menu li {
+	margin: 1em;
+}
+
+header .main-menu a {
+	color: white;
+	padding: .5em 1em;
+	display: block;
+	border-bottom: 1px dashed transparent;
+	border-top: 1px dashed transparent;
+}
+
+header .main-menu a.menu-trigger {
+	display: none;
+}
+
+header .main-menu a:hover {
+	color: #ff8f00;
+	transition: .25s;
+	border-color: #ff8f00;
+}
+
+header a.number {
+	color: white;
+	font-weight: bold;
+}
+
+footer {
+	padding: 2.5em 0;
+	text-align: center;
+	background-color: white;
+	color: #202020;
+}
+
+.block {
+	padding: 5em 0;
+	text-align: center;
+	color: white;
+	text-align: center;
+}
+
+.block-img {
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-blend-mode: overlay;
+	background-color: rgba(0, 0, 0, .5);
+	color: white;
+}
+
+.wrapper {
+	width: 75%;
+	margin: 0 auto;
+}
+
+.d-block {
+	display: block;
+}
+
+.d-flex,
+.items {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.items {
+	margin-top: 2.5em;
+}
+
+.item {
+	margin: 0 .5em;
+}

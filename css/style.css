@@ -1,0 +1,54 @@
+.preview-slider img {
+	margin-bottom: 1em;
+}
+
+.preview {
+	padding: 0;
+}
+
+.menu .menu-items.items:last-child, 
+.gallery .gallery-items.items:last-child {
+	margin-top: .75em;
+}
+
+.about {
+	background-image: url(../img/bc1.jpg);
+	background-color: rgba(0, 0, 0, .75);
+}
+
+.about a.btn {
+	margin-top: 2.5em;
+}
+
+.gallery .lb-outerContainer {
+	width: 100% !important;
+}
+
+.testimotials {
+	background-image: url(../img/bc2.jpg);
+	background-color: rgba(0, 0, 0, .75);
+}
+
+.testimotials .testimotials-slider p {
+	margin: 2.5em 5% 1em 5%;
+}
+
+.testimotials .testimotials-slider h3 {
+	margin: 2.5em 0 1em 0;
+	color: #fff;
+}
+
+.contacts .contacts-items .contacts-item {
+	justify-content: space-between;
+	border-bottom: 1px dashed white;
+	padding: 1em;
+	margin: .5em;
+}
+
+.contacts .contacts-items .contacts-item a {
+	color: #ff8f00;
+}
+
+.contacts .contacts-items .all-items {
+	width: 50%;
+}
